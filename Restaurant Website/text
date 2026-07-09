@@ -1,0 +1,13 @@
+url("https://picsum.photos/1600/900?restaurant");
+
+.hero{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url("ChatGPT\ Image\ Jun\ 22\,\ 2026\,\ 10_05_08\ PM.png");
+background-size:cover;
+color:white;
+}

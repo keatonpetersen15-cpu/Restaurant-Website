@@ -1,0 +1,153 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+background:#fafafa;
+color:#333;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 10%;
+background:#8B0000;
+color:white;
+position:sticky;
+top:0;
+}
+
+.logo {
+    width: 60px;
+    height: auto;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+.hero{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+                url("ChatGPT\ Image\ Jun\ 22\,\ 2026\,\ 10_05_08\ PM.png");
+    background-size: cover;          /* Fill the entire hero */
+    background-position: center;     /* Keep image centered */
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h2{
+font-size:55px;
+}
+
+.hero p{
+margin:20px;
+font-size:20px;
+}
+
+.hero button{
+padding:15px 35px;
+background:#FFD700;
+border:none;
+cursor:pointer;
+font-size:18px;
+}
+
+section{
+padding:70px 10%;
+}
+
+section h2{
+margin-bottom:30px;
+text-align:center;
+}
+
+.menu-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+border-radius:10px;
+overflow:hidden;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+}
+
+.card h3,
+.card p{
+padding:15px;
+}
+
+#about{
+text-align:center;
+max-width:800px;
+margin:auto;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:grid;
+gap:15px;
+}
+
+input,
+button{
+padding:15px;
+}
+
+button{
+background:#8B0000;
+color:white;
+border:none;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+.hero h2{
+font-size:38px;
+}
+
+}
